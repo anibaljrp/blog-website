@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  .menu {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .menu a {
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Estilo adicional para el contenido para evitar que se solape con el menú fijo */
+  /* Asegúrate de ajustar el valor del padding-top para que coincida con la altura del menú */
+  /* En este ejemplo, el menú tiene una altura de 50px, por lo que el padding-top es de 50px */
+  body {
+    padding-top: 50px;
+  }  
